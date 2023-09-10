@@ -11,3 +11,4 @@ if __name__ == '__main__':
     data = formatDataset(data) # turns data into pandas dataset
     stochRSIK, stochRSID = get_StochasticRelitiveStrengthIndex(data, 14, 3, 3)
     print(stochRSIK, stochRSID)
+    
